@@ -1,0 +1,17 @@
+.global__btn {
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 4px;
+  background-color: var(--orange-color);
+  border: 1px solid var(--orange-color);
+}
+
+.global__btn_link {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 3.14em;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  color: var(--white-color);
+  text-transform: uppercase;
+}

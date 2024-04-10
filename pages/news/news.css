@@ -1,0 +1,153 @@
+/* MAIN STYLES START */
+
+/* SECTION HERO STYLES START */
+
+.main {
+}
+.wrapper__top {
+  background-color: var(--gray-200-color);
+  background-image: url(../../images/news_hero_bgimg.png);
+  background-repeat: no-repeat;
+  /* background-position: right;
+  background-repeat: no-repeat;
+  background: linear-gradient(
+    90deg,
+    #f4f5f6 0%,
+    rgba(244, 245, 246, 0.86) 11.48%,
+    rgba(244, 245, 246, 0) 41.15%
+  ); */
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero__homepage {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  color: var(--gray-800-color);
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+.hero__homepage span {
+  color: var(--gray-600-color);
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 7.2rem;
+  line-height: 1.3em;
+  letter-spacing: 0.1rem;
+  color: var(--gray-900-color);
+  margin-bottom: 24px;
+}
+.hero__description {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5em;
+  color: var(--gray-700-color);
+  margin-bottom: 239px;
+}
+
+/* SECTION HERO STYLES END */
+
+/* SECTION INFO TYPES START */
+
+.news__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 120px;
+  padding-bottom: 180px;
+}
+.info__title {
+  font-weight: 700;
+  font-size: 4.6rem;
+  line-height: 1.3em;
+  text-align: center;
+  color: var(--gray-900-color);
+  margin-bottom: 40px;
+}
+.info__list1 {
+  display: flex;
+  margin-bottom: 60px;
+}
+.info__item1 {
+  padding: 10px 69px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+
+  &:hover {
+    border-color: var(--orange-color);
+    transition: 0.3s;
+  }
+
+  &:hover a {
+    color: var(--orange-color);
+  }
+}
+.info__link1 {
+  color: var(--gray-600-color);
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.6em;
+  text-align: center;
+  width: 116px;
+}
+.info__list2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.info__item2 {
+  background-color: var(--white-color);
+  margin-bottom: 30px;
+}
+.info__link2 {
+}
+.info__img {
+}
+.info__result_title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.5em;
+  color: var(--gray-900-color);
+}
+.info__result {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  color: var(--gray-700-color);
+}
+.info__result_text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6em;
+  color: var(--gray-800-color);
+  width: 552px;
+}
+
+/* SECTION SERVICES TYPES END */
+
+/* MAIN STYLES END */
+
+.types__list {
+}
+.types__item {
+}
+.types__img {
+}
+.types__texts {
+}
+.types__texts_title {
+}
+.types__texts_description {
+}
+.types__texts_btn {
+}
+.global__btn_link {
+}
+.global__btn {
+}

@@ -1,0 +1,241 @@
+.footer {
+}
+.footer__container {
+}
+
+.footer__wrapper {
+  background-color: var(--gray-900-color);
+  color: var(--white-color);
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.footer__inputs {
+  background-image: url(../images/footer_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 1920px; */
+  height: 826px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 345px;
+}
+.footer__container {
+  display: flex;
+  justify-content: end;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 495px;
+  height: 666px;
+  background-color: var(--white-color);
+}
+.footer__form_title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 1.5em;
+  text-align: center;
+  color: var(--gray-900-color);
+}
+.footer__label {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  color: var(--gray-800-color);
+  display: flex;
+  flex-direction: column;
+}
+.footer__inputs_1 {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.footer__form_input {
+}
+.footer__checkbox {
+}
+.checkbox__rule {
+  display: inline-block;
+  margin-left: 12px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  color: var(--gray-800-color);
+}
+.footer__inputs_btn {
+  &:hover {
+    background-color: var(--white-color);
+    border-color: var(--orange-color);
+    color: var(--orange-color);
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+.global__btn {
+}
+.global__btn_link {
+}
+
+/* SOCIAL STYLES START */
+
+.footer__socials {
+  display: flex;
+  margin-bottom: 49px;
+}
+.socials__icons {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-right: 242px;
+}
+.socials__top {
+  display: flex;
+  gap: 60px;
+}
+.socials__list {
+  display: flex;
+  gap: 16px;
+  opacity: 0.6;
+}
+.socials__item {
+}
+.socials__img {
+}
+.socials__description {
+  width: 493px;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+}
+
+.socials__subs {
+  display: flex;
+  flex-direction: column;
+}
+.socials__title {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 1.5em;
+}
+.socials__form {
+  margin-bottom: 16px;
+  width: 495px;
+  height: 44px;
+  background-color: #ffffff1f;
+}
+.socials__input {
+  background-color: var(--gray-800-color);
+  border: 1px solid #ffffff33;
+  height: 44px;
+  width: 356px;
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  padding-left: 16px;
+}
+.subs__btn {
+  padding-left: 25px;
+  padding-right: 25px;
+
+  &:focus {
+    outline: 1px solid --orange-color;
+  }
+
+  &:active {
+    border-color: var(--orange-color);
+  }
+}
+.socials__subs_text {
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  width: 495px;
+}
+/* SOCIAL STYLES END */
+
+/* ADDRESS STYLES START */
+
+.footer__address {
+  display: flex;
+  gap: 125px;
+  margin-bottom: 60px;
+}
+.address__texts {
+}
+.address__title {
+  margin-bottom: 13px;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  letter-spacing: 0.1rem;
+}
+.address__list {
+  gap: 4px;
+}
+.address__item {
+}
+.address__names {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6em;
+  color: var(--white-color);
+}
+.address__link {
+  color: var(--white-color);
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.6em;
+}
+
+/* ADDRESS STYLES END */
+
+/* STUDIO STYLES START */
+
+.footer__studio {
+  display: flex;
+}
+.studio__bottom {
+  display: flex;
+  margin-right: 804px;
+}
+.studio__text {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.studio__img {
+}
+.studio__go {
+  display: flex;
+  align-items: flex-end;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+.go__text {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  margin-right: 16px;
+  color: var(--white-color);
+}
+
+/* STUDIO STYLES END */
